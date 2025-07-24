@@ -1,16 +1,30 @@
-## Hi there 👋
+### Hi there 👋 I'm Yawar Abbas
 
-<!--
-**yawar2518/yawar2518** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 Software Engineering undergrad at University of Management and Technology  
+💻 Currently focused on mastering **Data Structures & Algorithms** and **Web Development**  
+🚀 Passionate about clean code, real-world projects, and continuous growth  
+🌱 Learning: React, JavaScript, Git, and problem-solving daily  
+📌 Based in Lahore | Open to internship and collaboration opportunities
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🚀 Tech Stack & Tools
+- Languages: C++, JavaScript, Python
+- Web: HTML, CSS, JavaScript, React (in progress)
+- Tools: Git, GitHub, VS Code, Figma
+
+---
+
+### 📂 Featured Repositories
+- 📁 `DSA-practice`: My journey through coding problems and patterns  
+- 🌐 `portfolio-v1`: My personal developer portfolio (in progress)
+
+---
+
+### 📫 Connect with Me
+- [LinkedIn](https://www.linkedin.com/in/your-link-here)
+- [Email](mailto:your-email-here@gmail.com)
+
+---
+
+> “Stay hungry, stay foolish.”  
