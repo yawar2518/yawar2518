@@ -22,8 +22,8 @@
 ---
 
 ### 📫 Connect with Me
-- [LinkedIn](https://www.linkedin.com/in/your-link-here)
-- [Email](mailto:your-email-here@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/yawar-abbas-5b2773275/)
+- [Facebook](https://www.facebook.com/yawarrbaloch)
 
 ---
 
