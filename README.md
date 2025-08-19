@@ -16,8 +16,7 @@
 ---
 
 ### 📂 Featured Repositories
-- 📁 [LinkedIn-Clone-php](https://github.com/yawar2518/LinkedIn-Clone-php): My journey through coding problems and patterns  
-- 🌐 `portfolio-v1`: My personal developer portfolio (in progress)
+- 📁 [LinkedIn-Clone-php](https://github.com/yawar2518/LinkedIn-Clone-php): My journey through coding problems and patterns 
 
 ---
 
