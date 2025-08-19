@@ -16,7 +16,7 @@
 ---
 
 ### 📂 Featured Repositories
-- 📁 [LinkedIn-Clone-php](https://github.com/yawar2518/LinkedIn-Clone-php): My journey through coding problems and patterns 
+- 📁 [LinkedIn-Clone-php](https://github.com/yawar2518/LinkedIn-Clone-php): My First Full Stack Project: A Lot of Mistakes, but Worth the Learning Experience.
 
 ---
 
