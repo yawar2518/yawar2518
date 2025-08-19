@@ -16,7 +16,7 @@
 ---
 
 ### 📂 Featured Repositories
-- 📁 `DSA-practice`: My journey through coding problems and patterns  
+- 📁 `LinkedIn-Clone-php`: My journey through coding problems and patterns  
 - 🌐 `portfolio-v1`: My personal developer portfolio (in progress)
 
 ---
