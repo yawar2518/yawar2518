@@ -17,6 +17,7 @@
 
 ### 📂 Featured Repositories
 - 📁 [LinkedIn-Clone-php](https://github.com/yawar2518/LinkedIn-Clone-php): My First Full Stack Project: A Lot of Mistakes, but Worth the Learning Experience.
+- 📁 [modern-portfolio](https://github.com/yawar2518/modern-portfolio): My First Experience of scratch to front-end Html and CSS.
 
 ---
 
