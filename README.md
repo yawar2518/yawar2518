@@ -16,6 +16,7 @@
 ---
 
 ### 📂 Featured Repositories
+- 📁 [Spotify-Clone](https://github.com/yawar2518/spotify-clone-music-player): Build a responsive Spotify-inspired music player with HTML, CSS, and JavaScript.
 - 📁 [LinkedIn-Clone-php](https://github.com/yawar2518/LinkedIn-Clone-php): My First Full Stack Project: A Lot of Mistakes, but Worth the Learning Experience.
 - 📁 [modern-portfolio](https://github.com/yawar2518/modern-portfolio): My First Experience of scratch to front-end Html and CSS.
 
