@@ -1,24 +1,18 @@
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-<!--                          YAWAR ABBAS · GitHub Profile                        -->
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-
 <a href="https://yawarabbas.vercel.app">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:050811,50:0a2540,100:FFB547&height=200&section=header&text=Yawar%20Abbas&fontSize=70&fontColor=F4F4F0&animation=fadeIn&fontAlignY=38&desc=I%20ship%20software%20that%20survives%20real-world%20infrastructure%2C%20not%20just%20localhost&descSize=18&descAlignY=60&descColor=FFB547" alt="Yawar Abbas banner" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:050811,50:0a2540,100:FFB547&height=200&section=header&text=Yawar%20Abbas&fontSize=70&fontColor=F4F4F0&animation=fadeIn&fontAlignY=38&desc=I%20build%20software%20that%20survives%20real%20infrastructure%2C%20not%20just%20localhost&descSize=18&descAlignY=60&descColor=FFB547" alt="Yawar Abbas banner" />
 </a>
 
-<!-- ── Typing animation ─────────────────────────────────────────────────────── -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=FFB547&center=true&vCenter=true&width=800&lines=Full-Stack+Developer+%C2%B7+Django+%2B+React;AI+%26+Agentic+Systems+Engineer;Co-Founder+of+a+Fiber+ISP+%C2%B7+300%2B+customers;I+build+production+systems%2C+not+assignments)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=FFB547&center=true&vCenter=true&width=800&lines=Full+Stack+Developer+working+with+Django+and+React;AI+and+Agentic+Systems+Engineer;Cofounder+of+a+Fiber+ISP+with+over+300+customers;I+build+production+systems%2C+not+assignments)](https://git.io/typing-svg)
 
 </div>
 
-<!-- ── Quick badges ─────────────────────────────────────────────────────────── -->
 <div align="center">
 
-<img src="https://img.shields.io/badge/📍-Lahore,_Pakistan-050811?style=for-the-badge&labelColor=FFB547&color=0a2540" alt="Location" />
-<img src="https://img.shields.io/badge/🌐-Open_to_Remote-050811?style=for-the-badge&labelColor=00D4FF&color=0a2540" alt="Remote" />
-<img src="https://img.shields.io/badge/💼-Open_to_Internships-050811?style=for-the-badge&labelColor=FFB547&color=0a2540" alt="Open to work" />
+<img src="https://img.shields.io/badge/Location-Lahore%2C_Pakistan-050811?style=for-the-badge&labelColor=FFB547&color=0a2540" alt="Location" />
+<img src="https://img.shields.io/badge/Availability-Open_to_Remote_Work-050811?style=for-the-badge&labelColor=00D4FF&color=0a2540" alt="Remote" />
+<img src="https://img.shields.io/badge/Availability-Open_to_Internships-050811?style=for-the-badge&labelColor=FFB547&color=0a2540" alt="Open to work" />
 
 <br/><br/>
 
@@ -30,48 +24,44 @@
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28"> &nbsp;whoami
+## Who I Am
 
 ```python
 class YawarAbbas:
     def __init__(self):
-        self.role         = "Full-Stack & AI Systems Developer"
-        self.education    = "BS Software Engineering @ UMT Lahore (2023–2027)"
-        self.company      = "SE Intern @ AgileTech Studio"
-        self.venture      = "Co-Founder — Fiber ISP (20 → 300+ customers in 9 months)"
-        self.building     = "asmaan.com — satellite-first real estate marketplace"
+        self.role         = "Full Stack and AI Systems Developer"
+        self.education    = "BS Software Engineering at UMT Lahore, 2023 to 2027"
+        self.company      = "SE Intern at AgileTech Studio"
+        self.venture      = "Cofounder of a Fiber ISP, grew from 20 to over 300 customers in 9 months"
+        self.building     = "asmaan.com, a satellite first real estate marketplace"
         self.focus        = ["backend architecture", "agentic AI", "geospatial", "devops"]
 
     def ships(self):
-        return "production systems — deployed, monitored, and actually used"
+        return "production systems that are deployed, monitored, and actually used"
 ```
 
-> Before I wrote a line of Django, I was in the field — splicing fiber and knocking on doors in
-> Choti Zareen. I convinced customers to pre-pay before a single cable was laid, set up the
+> Before I wrote a line of Django, I was in the field, splicing fiber and knocking on doors in
+> Choti Zareen. I convinced customers to pre pay before a single cable was laid, set up the
 > server room, and configured the MikroTik routers. Growing an ISP from zero taught me more about
 > execution and trust than any course could. Now I bring that same *"make it actually work"*
 > mindset to code.
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-
-## 🛰️ &nbsp;Flagship Work — Built at AgileTech Studio
+## Flagship Work at AgileTech Studio
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### [🅰️ Argus — Parking Ops Intelligence](https://argu.live)
-**B2B SaaS · Sole Developer · 🟢 Live**
+### [Argus, Parking Ops Intelligence](https://argu.live)
+**B2B SaaS, sole developer, live in production**
 
-Real-time parking-facility intelligence platform. Ingests live IoT sensor data over **MQTT**,
+Real time parking facility intelligence platform. Ingests live IoT sensor data over **MQTT**,
 stores it in **TimescaleDB** hypertables, detects anomalies with **Isolation Forest**, and
-forecasts occupancy with **Prophet** — pushed live to a dashboard over **WebSocket**.
+forecasts occupancy with **Prophet**, then pushes the results live to a dashboard over **WebSocket**.
 
-Built and deployed solo: 9 Docker services on Oracle Cloud, Nginx + SSL, RBAC, 26 tests.
+Built and deployed solo: 9 Docker services on Oracle Cloud, Nginx with SSL, RBAC, and 26 tests.
 
 `Django 5` `FastAPI` `Celery` `TimescaleDB` `MQTT` `WebSocket` `Prophet` `Docker`
 
@@ -81,15 +71,15 @@ Built and deployed solo: 9 Docker services on Oracle Cloud, Nginx + SSL, RBAC, 2
 </td>
 <td width="50%" valign="top">
 
-### [🤖 Agentic IoT Controller](https://agentic-iot-controller.vercel.app/)
-**LLM + Real Hardware · 🟢 Live**
+### [Agentic IoT Controller](https://agentic-iot-controller.vercel.app/)
+**LLM connected to real hardware, live demo**
 
 An LLM agent that controls **physical hardware** through natural language. Say *"the room's too
-hot, cool it down"* — the agent reads live **ESP32** sensor data, reasons over it, and flips a
-real relay switching a fan.
+hot, cool it down"* and the agent reads live **ESP32** sensor data, reasons over it, and flips a
+real relay that switches on a fan.
 
-A true feedback loop between a language model and the physical world — tool-calling, memory,
-guardrails, voice control.
+A true feedback loop between a language model and the physical world, with tool calling, memory,
+guardrails, and voice control.
 
 `FastAPI` `Groq LLM` `ESP32` `MicroPython` `JWT` `React` `CI/CD`
 
@@ -101,14 +91,14 @@ guardrails, voice control.
 <tr>
 <td width="50%" valign="top">
 
-### [🎙️ AI Voice Cloning for IVR](https://github.com/yawar2518/ivr-voice-cloning)
-**Self-Hosted TTS · Backend + AI Engineer**
+### [AI Voice Cloning for IVR](https://github.com/yawar2518/ivr-voice-cloning)
+**Self hosted TTS, backend and AI engineer**
 
-Replaces the voice-actor-and-studio loop for business phone systems. Clone a voice once, then
-generate unlimited IVR prompts from a dashboard. Self-hosted **Chatterbox TTS** on GPU, a
-7-state approval workflow, and **EBU R128** audio-quality gates before anything goes live.
+Replaces the voice actor and studio loop for business phone systems. Clone a voice once, then
+generate unlimited IVR prompts from a dashboard. Self hosted **Chatterbox TTS** on GPU, a
+seven step approval workflow, and **EBU R128** audio quality gates before anything goes live.
 
-Co-authored a formal API contract with the frontend engineer before writing code.
+Wrote a formal API contract together with the frontend engineer before writing any code.
 
 `Django` `FastAPI` `Celery` `PyTorch` `Chatterbox` `FFmpeg` `S3` `Docker`
 
@@ -117,14 +107,14 @@ Co-authored a formal API contract with the frontend engineer before writing code
 </td>
 <td width="50%" valign="top">
 
-### [🗺️ asmaan.com — My Startup](https://yawarabbas.vercel.app)
-**Satellite-First Real Estate · Team Lead**
+### [asmaan.com, My Startup](https://yawarabbas.vercel.app)
+**Satellite first real estate, team lead**
 
-Pakistan's first real estate marketplace where you browse properties on **satellite imagery**,
-not stock photos. Leading a 3-person team: **PostGIS** geospatial queries, live **Mapbox** price
-pins, a listing-verification state machine, and an **XGBoost** neighbourhood scoring model.
+Pakistan's first real estate marketplace where you browse properties on **satellite imagery**
+instead of stock photos. Leading a 3 person team: **PostGIS** geospatial queries, live **Mapbox**
+price pins, a listing verification state machine, and an **XGBoost** neighbourhood scoring model.
 
-170+ task Jira backlog · agile sprints · production stack.
+A Jira backlog of more than 170 tasks, agile sprints, and a production stack.
 
 `Django 5` `React 18` `PostGIS` `GeoDjango` `Mapbox GL JS` `XGBoost`
 
@@ -136,9 +126,7 @@ pins, a listing-verification state machine, and an **XGBoost** neighbourhood sco
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-
-## 🧰 &nbsp;Tech Arsenal
+## Tech Arsenal
 
 <div align="center">
 
@@ -150,7 +138,7 @@ pins, a listing-verification state machine, and an **XGBoost** neighbourhood sco
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-**Backend & AI**
+**Backend and AI**
 
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![DRF](https://img.shields.io/badge/DRF-A30000?style=for-the-badge&logo=django&logoColor=white)
@@ -166,7 +154,7 @@ pins, a listing-verification state machine, and an **XGBoost** neighbourhood sco
 ![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Mapbox](https://img.shields.io/badge/Mapbox-000000?style=for-the-badge&logo=mapbox&logoColor=white)
 
-**Data · Infra · DevOps**
+**Data, Infra, and DevOps**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![PostGIS](https://img.shields.io/badge/PostGIS-336791?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -180,16 +168,11 @@ pins, a listing-verification state machine, and an **XGBoost** neighbourhood sco
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-
-## 📊 &nbsp;GitHub Analytics
+## GitHub Analytics
 
 <div align="center">
 
-<!-- Stats cards. If a card is ever blank, it's the public instance rate-limiting — it self-heals on refresh. -->
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=yawar2518&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=050811&title_color=FFB547&icon_color=00D4FF&text_color=F4F4F0&ring_color=FFB547" alt="Yawar's GitHub Stats" />
-&nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yawar2518&layout=compact&langs_count=8&hide_border=true&bg_color=050811&title_color=FFB547&text_color=F4F4F0" alt="Top Languages" />
+<img height="180em" src="https://github-readme-stats-eight-topaz.vercel.app/api?username=yawar2518&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=050811&title_color=FFB547&icon_color=00D4FF&text_color=F4F4F0&ring_color=FFB547" alt="GitHub Stats" />
 
 </div>
 
@@ -199,7 +182,6 @@ pins, a listing-verification state machine, and an **XGBoost** neighbourhood sco
 
 </div>
 
-<!-- ── Contribution snake (generated by GitHub Action, see note below) ──────── -->
 <div align="center">
 
 <picture>
@@ -212,29 +194,25 @@ pins, a listing-verification state machine, and an **XGBoost** neighbourhood sco
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=yawar2518&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=4&margin-h=4" alt="Trophies" />
+<img src="https://github-trophies.vercel.app/?username=yawar2518&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=4&margin-h=4" alt="Trophies" />
 
 </div>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-
-## 🎓 &nbsp;Currently (7th Semester)
+## Currently in 7th Semester
 
 <div align="center">
 
-`Machine Learning` &nbsp;·&nbsp; `Information Retrieval` &nbsp;·&nbsp; `Software Quality Engineering` &nbsp;·&nbsp; `Software Project Management` &nbsp;·&nbsp; `Software Re-engineering`
+`Machine Learning` `Information Retrieval` `Software Quality Engineering` `Software Project Management` `Software Reengineering`
 
 </div>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-
 <div align="center">
 
-### 💬 &nbsp;Let's build something worth shipping.
+### Let's build something worth shipping
 
 <img src="https://komarev.com/ghpvc/?username=yawar2518&style=for-the-badge&color=FFB547&label=PROFILE+VIEWS" alt="Profile views" />
 
