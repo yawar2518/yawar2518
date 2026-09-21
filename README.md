@@ -126,6 +126,44 @@ A Jira backlog of more than 170 tasks, agile sprints, and a production stack.
 
 <br/>
 
+## Fyt, AI Powered Job Matching Platform
+
+Personal project, built in about a week for the Pinetree Research and Solari internship challenge. Live at [fyt-opal.vercel.app](https://fyt-opal.vercel.app), source in the internship-scout folder of [solari-cookbook](https://github.com/yawar2518/solari-cookbook).
+
+Every job board filters by keywords, so if you don't know the exact skill names you have, you get no matches. Fyt reads a plain English description of who you are, infers your skills and experience level, scrapes live LinkedIn listings, and ranks every match with an honest score and reasoning.
+
+**What was built**
+
+A full stack SaaS made of five connected systems.
+
+- **Context parsing engine.** Claude reads plain English input and extracts a structured profile: education, skills, experience level, inferred roles, and platform aware search keywords. It's cached by text hash, so identical input returns the stored profile without another Claude API call.
+- **Live job scraper.** The Solari browser SDK, running in stealth mode with a residential US proxy and captcha solving, hits LinkedIn in real time. A six hour job cache keyed by a keywords hash means cache hits skip Solari entirely.
+- **AI matching and ranking.** Claude scores each job from 0 to 100 with a match label, matching skills, missing skills, what you would learn, and an honest concern. It runs in chunks of 15 jobs, up to 45 total, to stay within token limits. This isn't keyword matching, Claude reads the full job description against the full user profile and reasons about fit.
+- **CV Studio.** Upload an existing PDF or DOCX for ATS review, or generate a CV from scratch through a multi step wizard. Output is rendered as an ATS safe, single column PDF using ReportLab.
+- **Pro features.** Company research using Claude with a web search tool covers company size, tech stack, culture, and day to day expectations. Pro also unlocks fully tailored cover letters built from the actual job description, and CV tailoring, all blurred out for free users.
+
+**Tech stack**
+
+| Layer | Technology |
+| --- | --- |
+| Frontend | Next.js 16 (App Router), React 19, TypeScript in strict mode, Tailwind CSS v4 |
+| Backend | FastAPI, Python 3.12 |
+| Database, auth, and storage | Supabase: PostgreSQL, Auth, and Storage |
+| Browser automation | Solari SDK in stealth mode with a residential US proxy and captcha solving |
+| AI | Claude API (claude-sonnet-4-6) |
+| CV rendering | ReportLab, producing an ATS safe PDF |
+| Deployment | Vercel for the frontend, Render free tier for the backend, UptimeRobot for keep warm pings |
+
+**Notable architecture decisions**
+
+- All Claude API calls happen server side in FastAPI, so no API keys ever reach the browser.
+- A Next.js proxy route forwards requests with the Supabase JWT attached and strips content encoding to prevent double compression through Render's CDN.
+- Search runs asynchronously in the background, and the frontend polls every two and a half seconds for live progress stages.
+- An atomic Postgres function enforces daily credit limits, 3 searches and 3 cover letters on the free tier, and refunds credits on failed searches.
+- Pro pricing is set at PKR 999 per month, intentionally designed for the Pakistani market.
+
+<br/>
+
 ## Tech Arsenal
 
 <div align="center">
